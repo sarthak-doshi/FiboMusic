@@ -1,0 +1,13 @@
+{
+  "name": "FiboMusic",
+  "version": "1.0.0",
+  "description": "This is the implementation of the Music generation using Fibonacci series.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Sarthak Doshi",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
