@@ -1,5 +1,5 @@
 {
-  "name": "FiboMusic",
+  "name": "fibo-music",
   "version": "1.0.0",
   "description": "This is the implementation of the Music generation using Fibonacci series.",
   "main": "app.js",
