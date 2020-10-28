@@ -43,10 +43,10 @@ function fibonacci(num) {
 }
 
 function getRandomInstrumentUrl(){
-    var randomnumber = Math.floor(Math.random() * (3 - 1 + 1)) + 1;
-    if (randomnumber === 1) {
+    var selectedInstrument = parseInt(document.getElementById("instrumentSelection").value);
+    if (selectedInstrument === 3) {
         return "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/gh-pages/Tabla-soundfont/tabla-mp3.js";
-    } else if (randomnumber === 2) {
+    } else if (selectedInstrument === 2) {
         return "https://gleitz.github.io/midi-js-soundfonts/FluidR3_GM/marimba-mp3.js";
     } else {
         return "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/gh-pages/MusyngKite/acoustic_guitar_nylon-mp3.js";
