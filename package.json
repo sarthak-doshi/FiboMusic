@@ -8,6 +8,6 @@
   },
   "author": "Sarthak Doshi",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.17.3"
   }
 }
